@@ -14,7 +14,7 @@ def get_forex_data(symbol: str, timeframe: str):
     """
     symbol = symbol.upper()
 
-    url = "https://raw.githubusercontent.com//ejtraderLabs/historical-data/main/"
+    url = "https://raw.githubusercontent.com/ejtraderLabs/historical-data/main/"
     url += symbol + "/" + symbol + timeframe.lower() + ".csv"
 
     return pd.read_csv(url)
