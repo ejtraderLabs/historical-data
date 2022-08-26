@@ -21,7 +21,7 @@ def get_forex_data(symbol: str, timeframe: str):
 
 
 
-df = data.get_forex_data("EURUSD", "h1")
+df = get_forex_data("EURUSD", "h1")
 
 print(df.head())
 ```
